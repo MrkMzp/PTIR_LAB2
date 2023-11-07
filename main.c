@@ -120,7 +120,7 @@ int main()
 
     while (1) 
     {
-		if(currentMillis == 999000)currentMillis = 0;
+		if(currentMillis >= 999000)currentMillis = 0;
 		
 		seconds = currentMillis/1000;
 		
