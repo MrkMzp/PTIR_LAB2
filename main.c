@@ -128,7 +128,7 @@ int main()
 		dig[1] = (seconds / 10) % 10;
 		dig[2] = (seconds / 100) % 10; 
 		
-		showSeconds();
+		ShowSeconds();
     }
     	
 	return 0;
