@@ -7,7 +7,7 @@
 	REMOVE = C:\MinGW\msys\1.0\bin\rm.exe
 	PORT = 
 
-default: compile clean  # flash
+default: compile clean 
 
 compile:
 	$(COMPILE) -c $(FILENAME).c -o $(FILENAME).o
